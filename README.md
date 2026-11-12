@@ -28,12 +28,7 @@ You can use any static file server (`npx serve .` works too).
 
 1. **Contact details.** The public contact email is `olli1234x@gmail.com`. It appears in the Contact section of `index.html` as a "Contact me" button and a clickable `mailto:` link. To change it, edit both `mailto:` links there.
 2. **Domain.** The site URL `https://portfolio-kappa-ebon-cjtxzh45c6.vercel.app/` is set in the `<head>` of `index.html` (canonical, `og:url`, `og:image`, `twitter:image`). If you move to a custom domain, update those 4 places. Social previews need an absolute image URL.
-3. **Live product links.** These links are commented out in `index.html` and marked `UNVERIFIED LIVE LINK`:
-   - `https://viyo.site/app`
-   - `https://www.ourollie.space`
-   - `https://www.ollieen.com`
-
-   They are listed in your repositories, but they could not be reached from the build environment. Open each one in a browser and uncomment it only if it works.
+3. **Live product links.** The site links to VIYO (`https://viyo.site/app`), Ollie (`https://www.ourollie.space`), Ollieen (`https://www.ollieen.com`) and Day-2 (`https://day-2-steel-eight.vercel.app`). If a URL changes, update it in `index.html` and `OUTREACH-KIT.md`.
 
 ## Deploy for free
 
