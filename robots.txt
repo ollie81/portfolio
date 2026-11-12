@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://portfolio-kappa-ebon-cjtxzh45c6.vercel.app/sitemap.xml

@@ -8,7 +8,8 @@ styles.css        dark theme, responsive layout, animations
 main.js           mobile menu, reveal-on-scroll, footer year (the page also works without JS)
 favicon.svg
 404.html
-robots.txt
+robots.txt        allows all crawlers, points to the sitemap
+sitemap.xml       single-page sitemap with the deployed URL
 assets/og-image.png        1200×630 social sharing image (made from real VIYO screenshots)
 assets/img/*.webp          screenshots, each in 2 sizes for srcset
 ```
