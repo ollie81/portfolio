@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Olivier — AI-Powered Apps, Platforms &amp; Digital Products</title>
+  <meta name="description" content="Portfolio of an independent software builder working across mobile applications, AI integrations, backend systems and video platforms. Featured project: VIYO.">
+  <meta name="theme-color" content="#090a12">
+  <meta name="color-scheme" content="dark">
+
+  <!-- EDIT AFTER DEPLOY: replace https://YOUR-DOMAIN.example with your real site URL (4 places in this <head>). -->
+  <link rel="canonical" href="https://YOUR-DOMAIN.example/">
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="I Build AI-Powered Apps, Platforms and Digital Products">
+  <meta property="og:description" content="Independent software builder — mobile apps, AI integrations, backend systems and video platforms. Featured: VIYO.">
+  <meta property="og:url" content="https://YOUR-DOMAIN.example/">
+  <meta property="og:image" content="https://YOUR-DOMAIN.example/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Portfolio headline beside two real VIYO app screenshots">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="I Build AI-Powered Apps, Platforms and Digital Products">
+  <meta name="twitter:description" content="Independent software builder — mobile apps, AI integrations, backend systems and video platforms.">
+  <meta name="twitter:image" content="https://YOUR-DOMAIN.example/assets/og-image.png">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Olivier — back to top">
+        <span class="brand-mark" aria-hidden="true">O</span>
+        <span class="brand-name">Olivier</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="sr-only">Menu</span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#viyo">VIYO</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#approach">Approach</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Independent software builder</p>
+          <h1>I Build <span class="gradient-text">AI-Powered</span> Apps, Platforms and Digital Products.</h1>
+          <p class="lead">An independent software builder working across mobile applications, AI integrations, backend systems and video platforms.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#viyo">Explore My Projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact</a>
+          </div>
+          <ul class="stack-list" aria-label="Main technologies">
+            <li>Flutter</li><li>Python</li><li>FastAPI</li><li>TypeScript</li><li>Next.js</li><li>Supabase</li><li>Godot</li>
+          </ul>
+        </div>
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="phone phone-back">
+            <img src="assets/img/viyo-ai-tools-360.webp" width="360" height="722" alt="" fetchpriority="high">
+          </div>
+          <div class="phone phone-front">
+            <img src="assets/img/viyo-create-menu-360.webp" width="360" height="722" alt="" fetchpriority="high">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED: VIYO ============ -->
+    <section class="section" id="viyo" aria-labelledby="viyo-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Featured case study · 01</p>
+          <h2 id="viyo-title">VIYO</h2>
+        </div>
+
+        <article class="feature-card reveal">
+          <div class="feature-top">
+            <div>
+              <span class="badge badge-dev"><span class="dot" aria-hidden="true"></span>In active development</span>
+              <p class="feature-desc">An AI-powered video entertainment and creator platform combining short-form video, drama discovery and AI-assisted content creation.</p>
+            </div>
+            <div class="feature-links">
+              <a class="btn btn-small btn-ghost" href="https://github.com/ollie81/Viyo-" target="_blank" rel="noopener">Flutter app repo <span aria-hidden="true">↗</span></a>
+              <a class="btn btn-small btn-ghost" href="https://github.com/ollie81/viyo_ai" target="_blank" rel="noopener">Backend repo <span aria-hidden="true">↗</span></a>
+              <!-- UNVERIFIED LIVE LINK: listed in the VIYO repo but not reachable from the build environment.
+                   Check it in a browser, then uncomment:
+              <a class="btn btn-small btn-primary" href="https://viyo.site/app" target="_blank" rel="noopener">Open VIYO <span aria-hidden="true">↗</span></a>
+              -->
+            </div>
+          </div>
+
+          <div class="gallery" role="list" aria-label="VIYO app screenshots">
+            <figure class="shot" role="listitem">
+              <img src="assets/img/viyo-feed-360.webp" srcset="assets/img/viyo-feed-360.webp 360w, assets/img/viyo-feed-720.webp 720w" sizes="(max-width: 640px) 70vw, (max-width: 1100px) 24vw, 260px" width="360" height="722" loading="lazy" decoding="async" alt="VIYO home screen: For You feed with a daily streak card, a creator video post and the bottom navigation.">
+              <figcaption><span>1</span> Home video feed</figcaption>
+            </figure>
+            <figure class="shot" role="listitem">
+              <img src="assets/img/viyo-create-menu-360.webp" srcset="assets/img/viyo-create-menu-360.webp 360w, assets/img/viyo-create-menu-720.webp 720w" sizes="(max-width: 640px) 70vw, (max-width: 1100px) 24vw, 260px" width="360" height="722" loading="lazy" decoding="async" alt="VIYO Create menu: Make a Drama with AI, Make Clips with AI, Upload Photo or Video, Upload Drama, Movie or Film, and Create or Join Challenge.">
+              <figcaption><span>2</span> Creator menu</figcaption>
+            </figure>
+            <figure class="shot" role="listitem">
+              <img src="assets/img/viyo-ai-tools-360.webp" srcset="assets/img/viyo-ai-tools-360.webp 360w, assets/img/viyo-ai-tools-720.webp 720w" sizes="(max-width: 640px) 70vw, (max-width: 1100px) 24vw, 260px" width="360" height="722" loading="lazy" decoding="async" alt="VIYO AI Tools screen listing Viyo Studio, AI Repurposer and Hook Check.">
+              <figcaption><span>3</span> VIYO AI Tools</figcaption>
+            </figure>
+            <figure class="shot" role="listitem">
+              <img src="assets/img/viyo-dramas-360.webp" srcset="assets/img/viyo-dramas-360.webp 360w, assets/img/viyo-dramas-720.webp 720w" sizes="(max-width: 640px) 70vw, (max-width: 1100px) 24vw, 260px" width="360" height="722" loading="lazy" decoding="async" alt="VIYO Watch screen with a Trending drama and Browse filters for Movie, Short Film and AI Film.">
+              <figcaption><span>4</span> Drama discovery</figcaption>
+            </figure>
+          </div>
+
+          <div class="feature-body">
+            <div>
+              <h3>What it does</h3>
+              <ul class="feature-list">
+                <li><strong>Video feed &amp; creator content</strong> — For You, Videos and Following tabs, creator posts, likes, comments, sharing and messaging.</li>
+                <li><strong>Drama &amp; film discovery</strong> — trending dramas, episode-based series and browse filters for movies, short films and AI films.</li>
+                <li><strong>AI-assisted drama &amp; film creation</strong> — VIYO Studio takes an idea through script, scene breakdown, casting, voices, scene images and video assembly.</li>
+                <li><strong>AI video repurposing</strong> — upload one longer video and get short, phone-cropped clips with captions, processed by a background worker.</li>
+                <li><strong>Hook checking</strong> — AI feedback on a caption's opening line before posting.</li>
+                <li><strong>Creator uploads &amp; publishing</strong> — photo, video and text posts, plus drama, series, movie and film uploads.</li>
+              </ul>
+            </div>
+            <div class="feature-side">
+              <h3>Technology</h3>
+              <ul class="tags">
+                <li>Flutter</li><li>Python</li><li>FastAPI</li><li>Supabase</li><li>Bunny Stream</li><li>AI integrations</li><li>FFmpeg</li>
+              </ul>
+              <h3>Engineering highlights</h3>
+              <ul class="mini-list">
+                <li>Cross-platform Flutter client with a separate Python/FastAPI backend</li>
+                <li>Background workers with job claiming, heartbeats and retries</li>
+                <li>Server-side credit estimates, holds and refunds for paid AI steps</li>
+                <li>Ownership-checked creator downloads via signed links</li>
+              </ul>
+              <div class="notice" role="note">
+                <strong>Development status.</strong> VIYO is under active development. Live AI generation and payment flows are implemented in the codebase but are <em>not</em> presented here as production-ready: the Studio tests use simulated AI providers, and live provider, payment and deployment testing still has to be verified separately.
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ OTHER PROJECTS ============ -->
+    <section class="section section-alt" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">More work</p>
+          <h2 id="projects-title">Other projects</h2>
+          <p class="section-sub">Every description below is taken from the project's own repository. Statuses are stated as the repositories state them.</p>
+        </div>
+
+        <div class="project-grid">
+          <!-- Ollie -->
+          <article class="project-card reveal">
+            <div class="project-cover cover-ollie" aria-hidden="true">
+              <div class="chat">
+                <span class="bubble bubble-in"></span>
+                <span class="bubble bubble-out"></span>
+                <span class="bubble bubble-in short"></span>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span class="badge">Active development</span><span class="kind">Mobile · Web · API</span></div>
+              <h3>Ollie</h3>
+              <p>An AI companion application with chat, memory and conversational features, available as an Android app and a web client that share one backend.</p>
+              <ul class="mini-list">
+                <li>AI conversations with multiple modes, history and message search</li>
+                <li>Memory that carries relevant context into later conversations</li>
+                <li>Morning check-ins, nightly summaries and scheduled reminders</li>
+                <li>Google / email sign-in and premium subscription infrastructure</li>
+              </ul>
+              <ul class="tags tags-sm"><li>Flutter</li><li>React + Vite</li><li>FastAPI</li><li>Supabase</li><li>OpenAI</li><li>Firebase Messaging</li></ul>
+              <div class="project-links">
+                <a href="https://github.com/ollie81/ollie-flutter" target="_blank" rel="noopener">Android app repo <span aria-hidden="true">↗</span></a>
+                <a href="https://github.com/ollie81/Ollie-web" target="_blank" rel="noopener">Web client repo <span aria-hidden="true">↗</span></a>
+                <!-- UNVERIFIED LIVE LINK — check, then uncomment:
+                <a href="https://www.ourollie.space" target="_blank" rel="noopener">Website ↗</a> -->
+              </div>
+              <p class="fine">The backend repository is private and not linked.</p>
+            </div>
+          </article>
+
+          <!-- Ollieen -->
+          <article class="project-card reveal">
+            <div class="project-cover cover-ollieen" aria-hidden="true">
+              <div class="nodes"><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span class="badge">In development</span><span class="kind">Web platform</span></div>
+              <h3>Ollieen</h3>
+              <p>A collaborator-matching platform: members build a skills "Passport", discover people and projects, and work together on real projects.</p>
+              <ul class="mini-list">
+                <li>"For You" ranking of members by compatibility with your Passport</li>
+                <li>Projects, opportunities and a full apply / accept / reject loop</li>
+                <li>Contributions, connections, notifications and an admin panel</li>
+                <li>Row Level Security on every table; reputation awarded by database triggers</li>
+              </ul>
+              <ul class="tags tags-sm"><li>Next.js</li><li>TypeScript</li><li>Tailwind</li><li>Supabase</li><li>Vitest</li></ul>
+              <div class="project-links">
+                <a href="https://github.com/ollie81/Evorien" target="_blank" rel="noopener">Repository <span aria-hidden="true">↗</span></a>
+                <!-- UNVERIFIED LIVE LINK — check, then uncomment:
+                <a href="https://www.ollieen.com" target="_blank" rel="noopener">Website ↗</a> -->
+              </div>
+            </div>
+          </article>
+
+          <!-- Day-2 -->
+          <article class="project-card reveal">
+            <div class="project-cover cover-day2" aria-hidden="true">
+              <pre class="code-lines"><span>scan  ▸ repository</span><span>score ▸ health</span><span>fix   ▸ patch → branch</span><span>human ▸ review PR</span></pre>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span class="badge">In development</span><span class="kind">Developer tool</span></div>
+              <h3>Day-2</h3>
+              <p>A codebase analysis and software maintenance tool. It scans GitHub repositories, scores their health, explains issues in plain language and proposes fixes as reviewable pull requests.</p>
+              <ul class="mini-list">
+                <li>Deterministic checks combined with validated, structured AI analysis</li>
+                <li>Health scoring and issue tracking between scans</li>
+                <li>AI-generated patches on a separate branch — a human always reviews and merges</li>
+                <li>Change Simulator for risk assessment across multiple repositories</li>
+              </ul>
+              <ul class="tags tags-sm"><li>Next.js</li><li>TypeScript</li><li>Supabase</li><li>GitHub API</li><li>Zod</li><li>Vitest</li></ul>
+              <p class="fine">Verified with unit tests; the full workflow against live GitHub, Supabase and AI accounts has not yet been validated end-to-end. Repository is private.</p>
+            </div>
+          </article>
+
+          <!-- Village -->
+          <article class="project-card reveal">
+            <div class="project-cover cover-image">
+              <img src="assets/img/village-dialogue-640.webp" srcset="assets/img/village-dialogue-640.webp 640w, assets/img/village-dialogue-1280.webp 1280w" sizes="(max-width: 760px) 92vw, 560px" width="640" height="360" loading="lazy" decoding="async" alt="In-game screenshot: the player meets Mara, a 29-year-old builder, who says 'Good morning! I don't think we've met.'">
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span class="badge">Milestone 1 playable</span><span class="kind">Android game</span></div>
+              <h3>The Village That Remembers</h3>
+              <p>A 3D village life simulation for Android built with Godot 4.3. Five villagers have their own personalities, daily routines and a saved memory of every conversation with you.</p>
+              <ul class="mini-list">
+                <li>Procedural low-poly world with a full day / night cycle</li>
+                <li>Code-generated rigged characters with skeletal animations</li>
+                <li>Third-person, Village View and conversation cameras</li>
+                <li>Touch joystick, graphics presets and headless automated test suites</li>
+              </ul>
+              <ul class="tags tags-sm"><li>Godot 4.3</li><li>GDScript</li><li>Android</li></ul>
+              <div class="project-links">
+                <a href="https://github.com/ollie81/THE-VILLAGE-THAT-REMEMBERS" target="_blank" rel="noopener">Repository <span aria-hidden="true">↗</span></a>
+              </div>
+              <p class="fine">Screenshots come from Godot's desktop fallback renderer. Performance on a real Android device and the APK export are not yet verified.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ APPROACH ============ -->
+    <section class="section" id="approach" aria-labelledby="approach-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">How I work</p>
+          <h2 id="approach-title">AI-assisted, end to end</h2>
+          <p class="section-sub">I plan the product, make the architecture decisions, and build, integrate, debug and test each part, using AI coding tools to speed up implementation.</p>
+        </div>
+        <div class="approach-grid">
+          <div class="approach-item reveal">
+            <h3>Mobile &amp; web clients</h3>
+            <p>Flutter apps for Android and the web, plus React and Next.js front ends.</p>
+          </div>
+          <div class="approach-item reveal">
+            <h3>Backends &amp; data</h3>
+            <p>Python / FastAPI services, Supabase Postgres with Row Level Security, and background job queues.</p>
+          </div>
+          <div class="approach-item reveal">
+            <h3>AI integrations</h3>
+            <p>LLM and media-generation pipelines with structured output validation and cost controls.</p>
+          </div>
+          <div class="approach-item reveal">
+            <h3>Video &amp; media</h3>
+            <p>Upload, processing, transcription, clipping and streaming delivery with FFmpeg and Bunny Stream.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-alt" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-title">Let's talk about your project</h2>
+            <p class="section-sub">Questions about something I've built, or something you want to build? Get in touch.</p>
+          </div>
+          <div class="contact-actions">
+            <!--
+              ============================================================
+              EDIT ME — CONTACT PLACEHOLDER
+              Replace the placeholder below with your real contact details,
+              e.g.  <a class="btn btn-primary" href="mailto:you@example.com">Email me</a>
+              Then delete the .placeholder block.
+              ============================================================
+            -->
+            <div class="placeholder" role="note">
+              <strong>Contact details coming soon.</strong>
+              <span>[Site owner: add your email or contact link in <code>index.html</code> — search for “EDIT ME”.]</span>
+            </div>
+            <a class="btn btn-ghost" href="https://github.com/ollie81" target="_blank" rel="noopener">GitHub profile <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Olivier. Built by hand, no tracking.</p>
+      <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+</body>
+</html>
