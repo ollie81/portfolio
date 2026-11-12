@@ -254,32 +254,9 @@ code { font-family: var(--mono); font-size: 0.85em; color: var(--cyan); }
 .project-links a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .fine { font-size: 0.8rem; color: var(--text-dim); }
 
-/* Covers: abstract, clearly decorative (no fake screenshots) */
+/* Covers: real screenshots */
 .project-cover { aspect-ratio: 16 / 9; position: relative; overflow: hidden; border-bottom: 1px solid var(--border); }
 .cover-image img { width: 100%; height: 100%; object-fit: cover; }
-.cover-ollie { background: radial-gradient(circle at 30% 30%, rgba(34,211,238,0.25), transparent 60%), radial-gradient(circle at 80% 80%, rgba(168,85,247,0.3), transparent 60%), var(--surface-2); }
-.chat { position: absolute; inset: 18% 22%; display: flex; flex-direction: column; gap: 12px; justify-content: center; }
-.bubble { height: 26px; border-radius: 14px; width: 70%; }
-.bubble-in { background: rgba(255,255,255,0.1); align-self: flex-start; }
-.bubble-in.short { width: 45%; }
-.bubble-out { background: var(--grad); align-self: flex-end; width: 60%; opacity: 0.85; }
-.cover-ollieen { background: radial-gradient(circle at 70% 30%, rgba(168,85,247,0.3), transparent 60%), radial-gradient(circle at 20% 80%, rgba(34,211,238,0.22), transparent 60%), var(--surface-2); }
-.nodes { position: absolute; inset: 0; }
-.nodes i { position: absolute; width: 16px; height: 16px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 24px var(--cyan); }
-.nodes i:nth-child(1) { left: 22%; top: 35%; }
-.nodes i:nth-child(2) { left: 48%; top: 22%; background: var(--purple); box-shadow: 0 0 24px var(--purple); }
-.nodes i:nth-child(3) { left: 72%; top: 45%; }
-.nodes i:nth-child(4) { left: 38%; top: 66%; background: var(--purple); box-shadow: 0 0 24px var(--purple); }
-.nodes i:nth-child(5) { left: 62%; top: 72%; }
-.nodes::before {
-  content: ""; position: absolute; inset: 0;
-  background:
-    linear-gradient(28deg, transparent 49.6%, rgba(255,255,255,0.12) 50%, transparent 50.4%),
-    linear-gradient(-32deg, transparent 49.6%, rgba(255,255,255,0.1) 50%, transparent 50.4%);
-}
-.cover-day2 { background: linear-gradient(135deg, #0b1220, #151129); display: grid; place-items: center; }
-.code-lines { margin: 0; display: grid; gap: 8px; font-family: var(--mono); font-size: clamp(0.72rem, 1.6vw, 0.9rem); color: #a5f3fc; }
-.code-lines span:nth-child(even) { color: var(--purple-soft); }
 
 /* ---------- Approach ---------- */
 .approach-grid { display: grid; gap: 16px; }
