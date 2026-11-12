@@ -10,6 +10,7 @@ favicon.svg
 404.html
 robots.txt        allows all crawlers, points to the sitemap
 sitemap.xml       single-page sitemap with the deployed URL
+OUTREACH-KIT.md   bio, project links and message templates for sharing the work (not part of the site)
 assets/og-image.png        1200×630 social sharing image (made from real VIYO screenshots)
 assets/img/*.webp          screenshots, each in 2 sizes for srcset
 ```
