@@ -3,7 +3,7 @@
 A static, dependency-free portfolio site: one HTML page, one stylesheet, one small script, and optimized WebP screenshots. It has no build step, framework, tracking or paid service.
 
 ```
-index.html        page content (projects, contact placeholder, metadata)
+index.html        page content (projects, contact section, metadata)
 styles.css        dark theme, responsive layout, animations
 main.js           mobile menu, reveal-on-scroll, footer year (the page also works without JS)
 favicon.svg
@@ -24,7 +24,7 @@ You can use any static file server (`npx serve .` works too).
 
 ## Before you publish: things to edit
 
-1. **Contact details.** In `index.html`, search for `EDIT ME`. Replace the dashed placeholder box with your real email or contact link.
+1. **Contact details.** The public contact email is `olli1234x@gmail.com`. It appears in the Contact section of `index.html` as a "Contact me" button and a clickable `mailto:` link. To change it, edit both `mailto:` links there.
 2. **Domain.** In the `<head>` of `index.html`, replace `https://YOUR-DOMAIN.example` (4 places) with your deployed URL. Social previews need an absolute image URL.
 3. **Live product links.** These links are commented out in `index.html` and marked `UNVERIFIED LIVE LINK`:
    - `https://viyo.site/app`

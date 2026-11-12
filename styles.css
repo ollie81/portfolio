@@ -298,6 +298,9 @@ code { font-family: var(--mono); font-size: 0.85em; color: var(--cyan); }
 @media (min-width: 900px) { .contact-card { grid-template-columns: 1.2fr 1fr; padding: 52px; } }
 .contact-card h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 800; }
 .contact-actions { display: grid; gap: 14px; }
+.contact-email { text-align: center; color: var(--text-muted); font-size: 0.95rem; overflow-wrap: anywhere; }
+.contact-email a { color: var(--cyan); font-weight: 600; text-decoration: none; }
+.contact-email a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .placeholder {
   display: grid; gap: 6px; padding: 18px; border-radius: 14px; border: 2px dashed rgba(34, 211, 238, 0.45);
   background: rgba(34, 211, 238, 0.05); font-size: 0.92rem; color: var(--text-muted);
